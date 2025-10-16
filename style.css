@@ -308,6 +308,22 @@ span {
     margin-top: 10px;
 }
 
+.contact .inputBox input:focus,
+.contact .inputBox textarea:focus {
+    border-color: #007bff;
+
+}
+
+.contact ::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.contact input:focus::placeholder,
+.contact textarea:focus::placeholder {
+    color: #007bff;
+}
+
 .contact .inputBox textarea {
     min-height: 150px;
     max-height: 200px;
